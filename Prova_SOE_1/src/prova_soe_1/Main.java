@@ -12,8 +12,8 @@ public class Main {
      */
     public static void main(String[] args) {
         System.out.println("Good morning");
-        hello("world");
-        hello("universe");
+        System.out.println("world");
+        System.out.println("universe");
     }
     
     private static void hello(String msg){
